@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="myCheckBox" />
+    <label for="myCheckBox">Subscribe</label>
+    <br />
+    <!-- if the for attribute is the same as the id when we click on the lavel it should still select the checkbox -->
+    <br />
+
+    <!-- with radio button they should all be in the same group to get the functinality of selecting one at once -->
+    <input type="radio" id="visaBtn" name="card" />
+    <label for="visaBtn">Visa</label>
+    <br />
+    <input type="radio" id="mastercardBtn" name="card" />
+    <label for="mastercardBtn">Mastercard</label>
+    <br />
+    <input type="radio" id="paypalBtn" name="card" />
+    <label for="paypalBtn">Paypal</label>
+    <br />
+    <br />
+    <button type="submit" id="mySubmit">Submit</button>
+
+    <p id="subResult"></p>
+    <p id="paymentResult"></p>
+    <script src="check.js"></script>
+  </body>
+</html>

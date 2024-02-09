@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    background-color: hsl(0, 1%, 75%);
+}
+
+h1 {
+    color:rgba(0, 0, 255, 0.733) ;
+}
+
+form {
+    background-color: white;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px hsla(0, 0%, 0%, 0.384);
+/* 1st value horizontal offset 2nd vertical offset 3rd is blur radius */
+}
+
+#textBox {
+    border-radius: 20px;
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 3px solid hsla(0, 0%, 0%, 0.514);
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 10px;
+    color: wheat;
+    background-color: hsla(0, 100%, 50%, 0.658);
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color: hsla(0, 100%, 50%, 0.808);
+}
+
+#result {
+    font-size: 1.7em;
+    font-weight: bold;
+}
