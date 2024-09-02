@@ -1,5 +1,5 @@
-// Arrays = a variable like structure that can hold 
-//                   more than 1 value
+// !Arrays = a variable like structure that can hold 
+// !                  more than 1 value
 
 let fruits = ["apple", "orange", "banana"];
 // add S so the variable name is plural for readiablity
@@ -14,16 +14,16 @@ let fruits = ["apple", "orange", "banana"];
 // fruits[1] = "coconut"; // u can replace elements
 // fruits[3] = "mango"; // or add
 
-// // or use built in method of arrays
+// or use built in method of arrays
 // fruits.push("avocado");
 
-// // pop() used to remove the last element
+//  pop() used to remove the last element
 // fruits.pop();
 
-// // the unshift() method will add element to the beginning of array
+// the unshift() method will add element to the beginning of array
 // fruits.unshift("potato");
 
-// // shift() method to remove element from the beginning of array
+// shift() method to remove element from the beginning of array
 // fruits.shift();
  
 
@@ -33,7 +33,7 @@ let fruits = ["apple", "orange", "banana"];
 // to find the length of an array there is a length property
 // let numOffFruits = fruits.length;
 
-// // find index of an element
+// find index of an element
 // let index = fruits.indexOf("orange");
 
 // console.log(numOffFruits);
@@ -47,7 +47,7 @@ let fruits = ["apple", "orange", "banana"];
 //     console.log(fruits[i]);
 // }
 
-// // in reverse
+// in reverse
 // for (let i = fruits.length-1; i >= 0; i--){
 //     console.log(fruits[i]);
 // }
@@ -56,7 +56,7 @@ let fruits = ["apple", "orange", "banana"];
 fruits.sort(); // to sort array in alphabetical order
 fruits.sort().reverse(); // sort them reverse order
 
-
+ 
 // there is also enhanced for loop
 // its shortcut to displaying the element of array
 

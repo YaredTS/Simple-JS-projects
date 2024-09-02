@@ -1,0 +1,33 @@
+body {
+    background-image: url(axum.jpg);
+    background-position: center;
+    /* if you are using small image your image might be repeating it self to take up all space */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* if you have additional content beside this clock you can keep the background
+    in place when you scroll down. */
+    background-attachment: fixed;
+    margin: 0;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    /* align the element inside the border horizontally and vertically */
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    /* for blur effect */
+    backdrop-filter: blur(5px);
+    /* to give foggy appearance */
+    background-color: hsla(0, 0%, 100%, 0.05); 
+    /* 0.1 is the alpha */
+    width: 100%;
+}

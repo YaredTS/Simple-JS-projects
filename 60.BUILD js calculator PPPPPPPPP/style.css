@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* for horizontal alignment */
+    align-items: center;
+    /* for vertical alignment but we need to increase the height of 
+    the document so its 100% */
+    height: 100vh;
+    background-color: hsl(0, 0%, 85%); 
+    /* (hue,saturation,lightness) */
+}
+#calculator{
+    font-family: Arial, sans-serif ;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+    /* this is mostly for our display if we have long equation */
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 1fr stands for fractional unit indicate that each column should
+    take up even amount of space */
+    gap: 10px;
+    /* that is the gap between each rows */
+    padding: 25px;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(0, 0%, 50%);
+}
+/* when clicking the button it will flash */
+button:active{
+    background-color: hsl(0, 0%, 70%);
+}
+.operator-btn{
+    background-color: hsl(35, 100%, 50%);
+}
+.operator-btn:hover{
+    background-color: hsl(35, 100%, 60%);
+}
+.operator-btn:active{
+    background-color: hsl(35, 100%, 70%);
+}
